@@ -1,0 +1,199 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI;
+    letter-spacing:.2px;
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+body
+{
+    background-color: rgb(204, 204, 204);
+}
+.bg
+{
+    height: 125vh;
+    background-color: #000;
+}
+.container
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 62%;
+    left: 50%;
+    width: 500px;
+    max-width: 100%;
+}
+.header a
+{
+    color: #fff;
+}
+.header
+{
+    color: #fff;
+    display: flex;
+    padding: 15px;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(114, 114, 114);
+}
+.header p
+{
+    margin-left: 15px;
+}
+.header .far
+{
+    font-size: 24px;
+}
+.search
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.search-type
+{
+    background-color: rgb(63, 63, 63);
+    padding: 4px;
+    width: 350px;
+    border-radius: 10px;
+}
+.search-type .fas
+{
+    background-color: rgb(63, 63, 63);
+    color: rgb(194, 194, 194);
+}
+input
+{
+    height: 5vh;
+    outline: none;
+    border: none;
+    width: 250px;
+    color: rgb(194, 194, 194);
+    background-color: rgb(63, 63, 63);
+}
+.account-text
+{
+    color: rgb(128, 128, 128);
+    margin-top: 19px;
+    margin-bottom: 24px;
+    padding-left: 28px;
+    width: 84%;
+}
+::placeholder
+{
+    font-size: 19px;
+    color: rgb(194, 194, 194);
+}
+.about-setting
+{
+    margin-top: 5%;
+}
+li
+{
+    margin-bottom: 24px;
+    padding-left: 28px;
+    list-style-type: none;
+}
+.about-setting li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.about-setting .far
+{
+    font-size: 19px;
+}
+.facebook
+{
+    color: #fff;
+    padding-left: 28px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.accounts
+{
+    padding-left: 28px;
+    margin-top: 15px;
+}
+.accounts a
+{
+    text-decoration: none;
+}
+.fab
+{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.facebook p
+{
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+.logins
+{
+    padding-left: 28px;
+    margin-top: 15px;
+    background-color: #000;
+    height: 150px;
+}
+.logins a
+{
+    text-decoration:none;
+}
+.logins p
+{
+    margin-bottom: 5%;
+}
+.addaccount1
+{
+    color: #fff;
+}
+.account-text p
+{
+    font-size: 15px;
+}
+.addaccount
+{
+    color: rgb(85, 96, 255);
+}
+.footer-icons .far,.fas,.fal
+{
+    color: #fff;
+}
+.footer-icons
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 29px;
+    padding-right: 29px;
+    font-size: 19px;
+}
+.footer-icons img
+{
+    width: 22px;
+    padding-top: 5px;
+}
+footer
+{
+    border-top: 1px solid rgb(54, 54, 54);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+}
+.footer-icons .account
+{
+    width: 29px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}

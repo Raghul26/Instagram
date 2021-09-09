@@ -1,0 +1,332 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI;
+    letter-spacing:.2px;
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+body
+{
+    background-color: rgb(116, 116, 116);
+}
+.container
+{
+    background-color: #000;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    height: 100vh;
+    width: 500px;
+    max-width: 100%;
+}
+.feedback-header
+{
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 15px;
+}
+.feedback-header span
+{
+    font-size: 24px;
+    color: #fff;
+}
+.feedback-follow p
+{
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.feedback-follow img
+{
+    width: 45px;
+    border-radius: 50%;
+}
+.feedback-follow
+{
+    display: flex;
+    align-items:center;
+}
+.feedbacks01
+{
+    padding-bottom: 15%;
+}
+.feedbacks
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+    font-size: 15px;
+}
+.feedback-follows
+{
+    color: #fff;
+    margin: 4px 0;
+    margin-left: 10px;
+}
+.feedback-follow_request
+{
+    margin-top: 12.5%;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+}
+.feedback-follow_request img
+{
+    width: 45px;
+    border-radius: 50%;
+}
+.feedback-follow_request p
+{
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+span.follow-detail1
+{
+    font-size: 13px;
+    color: rgb(196, 196, 196);
+}
+.feedback-follow-requests
+{
+    background-color: red;
+    padding: 2px 7px;
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    left: 38px;
+}
+.buttons-confirm,.buttons-delete
+{
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid rgb(71, 71, 243);
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(71, 71, 243);
+}
+.buttons-confirm:hover
+{
+    border: 2px solid rgb(142, 142, 253);
+    background-color: rgb(142, 142, 253);
+}
+.buttons
+{
+    margin-left: 5%;
+}
+.buttons-delete
+{
+    background-color: transparent;
+    border: 2px solid rgb(211, 211, 211);
+}
+.follow-detail
+{
+    font-size: 13px;
+    font-weight: lighter;
+}
+.feedback-user
+{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.feedback-user img
+{
+    width: 45px;
+    padding-left: 5px;
+    border-radius: 50%;
+}
+.feedback-user p
+{
+    color: #fff;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.bg
+{
+    background-color: #000;
+}
+.feedback-users-1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.feedback-images
+{
+    margin-right: 5px;
+}
+.feedback-images
+{
+    width: 45px;
+}
+.feedback-usersname
+{
+    margin: 0 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feedback-images-1
+{
+    width: 45px;
+}
+.feedback-usersname-1
+{
+    width: 40px;
+}
+.usernames
+{
+    margin-left: 19px;
+    cursor: pointer;
+}
+.feedback-users-1
+{
+    margin: 23px 5px;
+}
+.feedback
+{
+    margin-top: 5%;
+}
+.feedback-usersname_1
+{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.feedback-usersname_1 p
+{
+    color: #fff;
+    font-size: 15px;
+}
+.username
+{
+    width: 50px;
+    border-radius: 50%;
+    position:absolute;
+}
+.username_1
+{
+    position: relative;
+    top: 9px;
+    left: 12px;
+    border: 2.5px solid rgb(43, 43, 43);
+}
+span.like-photo,.follow-days
+{
+    color: rgb(219, 219, 219);
+    font-size: 12px;
+    font-weight: lighter;
+}
+.follow-days
+{
+    color: rgb(196, 196, 196);
+}
+span.like-photo-1
+{
+    color: rgb(219, 219, 219);
+    font-weight: lighter;
+}
+.feedback-users-like
+{
+   padding-bottom: 19%;
+}
+.feedback-story img
+{
+    border: 2px solid rgb(226, 97, 22);
+}
+.feedback-follow p
+{
+    margin-top: 10px;
+}
+.footer-icons .account
+{
+    width: 29px;
+    border: none;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 50%;
+}
+.footer-icons a
+{
+    margin-top: 5px;
+}
+.footer-icons img
+{
+    font-size: 150px;
+    color: #fff;
+}
+.footer-icons .far,.fas,.fal
+{
+    color: #fff;
+}
+.footer-icons
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 29px;
+    padding-right: 29px;
+    font-size: 19px;
+}
+.footer-icons img
+{
+    width: 22px;
+    padding-top: 5px;
+}
+footer
+{
+    border-top: 1px solid rgb(54, 54, 54);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+}
+@media (width: 320px)
+{
+    .feedbacks-1
+{
+    margin-top: 15%;
+}
+    .buttons
+{
+    margin-left: 5%;
+}
+}
+@media (min-width: 375px)
+{
+    .buttons
+{
+    margin-left: 19%;
+}
+}
+@media (max-width: 320px)
+{
+    .feedbacks-1
+{
+    margin-top: 55px;
+}
+}
+@media (min-width: 330px)
+{
+    .feedbacks-1
+{
+    margin-top: 55px;
+}
+}

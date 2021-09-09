@@ -1,0 +1,342 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI;
+    letter-spacing: .2px;
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+body
+{
+    background-color: rgb(116, 116, 116);
+}
+.container
+{
+    background-color: #000;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    height: 100vh;
+    width: 500px;
+    max-width: 100%;
+}
+header
+{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #000;
+    border-bottom: 1px solid rgb(114, 114, 114);
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 25px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header_icons
+{
+    display: flex;
+    font-size: 24px;
+}
+.header_icons .far
+{
+    padding-right: 15px;
+}
+.stories
+{
+    padding-top: 58px;
+}
+.stories li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    position: relative;
+}
+.stories p
+{
+    font-size: 12px;
+}
+.add-story
+{
+    background-color: rgb(83, 83, 255);
+    position: absolute;
+    padding: 4px 7px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    color: #fff;
+    margin-top: 45%;
+    margin-left: 58%;
+    font-size: 10px;
+}
+li p
+{
+    color: #fff;
+}
+.stories
+{
+    border-bottom: 1px solid rgb(54, 54, 54);
+}
+.user-post
+{
+    border-top: 1px solid #000;
+}
+.userstorie_img.user1
+{
+    border: none;
+}
+.footer-icons .account
+{
+    width: 29px;
+    border: none;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 50%;
+}
+.userstorie_img
+{
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 97, 22);
+    cursor: pointer;
+}
+.user-post
+{
+    height: 800vh;
+    width: 100%;
+    max-width: 100%;
+    background-color: #000;
+}
+.user-profile_img
+{
+    width: 12%;
+    border-radius: 50%;
+}
+.userprofile,.user-post-1
+{
+    display: flex;
+    align-items: center;
+}
+.userprofile
+{
+    margin: 5px;
+}
+.userprofile span
+{
+    padding-left: 5px; 
+    font-size: 15px;
+    color: #fff;
+}
+.user-post-1 .far
+{
+    margin-right: 9px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+.user-post_img
+{
+    width: 100%;
+}
+.icons
+{
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    font-size: 15px;
+}
+.icons .likes
+{
+    font-size: 15px;
+}
+.icons .far
+{
+    font-size: 19px;
+    cursor: pointer;
+}
+.post-icons .far,.fal
+{
+    padding-left: 5px;
+    padding-bottom: 9px;
+    font-size: 19px;
+    cursor: pointer;
+}
+input
+{
+    display: none;
+}
+.more-details
+{
+    font-size: 15px;
+    color: gray;
+}
+.about-details
+{
+    display: none;
+}
+.more-details
+{
+    cursor: pointer;
+}
+#about-more:checked ~ .about-details
+{
+    display: block;
+}
+
+
+.view-message
+{
+    color: #fff;
+    
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 29px;
+}
+.view-message small
+{
+    font-size: 12px;
+}
+.view-success
+{
+    margin-top: 150px;
+}
+.view-message
+{
+    margin-bottom: 15px;
+}
+.view-success p,small
+{
+    line-height: 35px;
+}
+.view-message small
+{
+    color: rgb(196, 196, 196);
+}
+.click-message a
+{
+    color: rgb(118, 118, 255);
+    text-decoration: none;
+}
+.span-1
+{
+    margin-top: 10%;
+}
+.span-1 .fal
+{
+    font-size: 55px;
+    padding: 35px 40px;
+    border-radius: 50%;
+    border: 4px solid rgb(226, 97, 22);
+    color: rgb(226, 97, 22);
+}
+.span-2
+{
+    margin-top: 5%;
+    font-size: 19px;
+}
+.post-icons-text
+{
+    font-weight: lighter;
+}
+.footer-icons img
+{
+    font-size: 150px;
+    color: #fff;
+}
+.footer-icons .far,.fas
+{
+    color: #fff;
+}
+.footer-icons
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    padding-left: 29px;
+    padding-right: 29px;
+    font-size: 19px;
+}
+.footer-icons img
+{
+    width: 22px;
+    padding-top: 5px;
+}
+footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    border-top: 1px solid rgb(54, 54, 54);
+}
+@media (max-width: 320px)
+{
+    .stories
+{
+    padding-top: 17%;
+}
+    .userstorie_img  
+{
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 97, 22);
+}
+li p
+{
+    font-size: 10px;
+}
+.header
+{
+    font-size: 25px;
+    padding: 10px;
+}
+.header img
+{
+    width: 100px;
+}
+}
+@media (width: 320px)
+{
+.add-story
+{
+    position: absolute;
+    top: 9%;
+    left: 9%;
+    padding: 2px 4px;
+    font-size: 4%;
+}
+}
+@media (min-width: 325px)
+{
+.add-story
+{
+    position: absolute;
+    top: 19%;
+    left: 15%;
+}
+}
+/* @media (width: 330px)
+{
+    .stories
+    {
+        padding-top: 19%;
+    }
+} */
