@@ -7,4 +7,3 @@ This is my first Instagram websiet Design. Made using html and css. This website
 
 
 
-![Capture1](https://user-images.githubusercontent.com/90317197/151924266-b32135ab-0a7b-45eb-b08b-d1a7c95ab9f2.JPG)
