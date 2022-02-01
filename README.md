@@ -6,4 +6,5 @@ This is my first Instagram websiet Design. Made using html and css. This website
 ![instagram images2](https://user-images.githubusercontent.com/90317197/151653914-13484dfe-532a-43af-b671-af91ce77e8aa.JPG)
 
 
+![images](https://user-images.githubusercontent.com/90317197/151926422-8e3bea1a-3a93-43e1-9a88-c67012074097.JPG)
 
